@@ -1,0 +1,3 @@
+Для установки нужны DELPHI 7 и BDE (БД Paradox)
+Алиас:
+banks_ulya

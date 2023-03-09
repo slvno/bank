@@ -1,0 +1,82 @@
+object Form3: TForm3
+  Left = 215
+  Top = 145
+  Width = 185
+  Height = 205
+  Caption = 'Form3'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  OnClose = FormClose
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object SpeedButton1: TSpeedButton
+    Left = 75
+    Top = 125
+    Width = 90
+    Height = 49
+    Caption = #1042#1099#1073#1088#1072#1090#1100
+    Flat = True
+    Glyph.Data = {
+      76010000424D7601000000000000760000002800000020000000100000000100
+      04000000000000010000130B0000130B00001000000000000000000000000000
+      800000800000008080008000000080008000808000007F7F7F00BFBFBF000000
+      FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00333333333303
+      333333333333337FF3333333333333903333333333333377FF33333333333399
+      03333FFFFFFFFF777FF3000000999999903377777777777777FF0FFFF0999999
+      99037F3337777777777F0FFFF099999999907F3FF777777777770F00F0999999
+      99037F773777777777730FFFF099999990337F3FF777777777330F00FFFFF099
+      03337F773333377773330FFFFFFFF09033337F3FF3FFF77733330F00F0000003
+      33337F773777777333330FFFF0FF033333337F3FF7F3733333330F08F0F03333
+      33337F7737F7333333330FFFF003333333337FFFF77333333333000000333333
+      3333777777333333333333333333333333333333333333333333}
+    Layout = blGlyphTop
+    NumGlyphs = 2
+    OnClick = SpeedButton1Click
+  end
+  object CheckListBox1: TCheckListBox
+    Left = 10
+    Top = 5
+    Width = 51
+    Height = 166
+    BorderStyle = bsNone
+    ItemHeight = 13
+    Items.Strings = (
+      '1'
+      '2'
+      '3'
+      '4'
+      '5'
+      '6'
+      '7'
+      '8'
+      '9'
+      '10'
+      '11'
+      '12')
+    ParentColor = True
+    TabOrder = 0
+  end
+  object Memo1: TMemo
+    Left = 75
+    Top = 5
+    Width = 96
+    Height = 106
+    BorderStyle = bsNone
+    Lines.Strings = (
+      #1042#1099#1073#1086#1088' '
+      #1074#1086#1079#1084#1086#1078#1085#1099#1093
+      #1074#1072#1088#1080#1072#1085#1090#1086#1074' '
+      #1089#1088#1086#1082#1086#1074
+      #1093#1088#1072#1085#1077#1085#1080#1103
+      #1074#1082#1083#1072#1076#1086#1074
+      #1074' '#1073#1072#1085#1082#1072#1093)
+    ParentColor = True
+    TabOrder = 1
+  end
+end
